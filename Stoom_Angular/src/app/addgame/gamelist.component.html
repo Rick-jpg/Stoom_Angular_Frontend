@@ -1,0 +1,8 @@
+<table class="table table-hover">
+    <tr *ngFor="let gam of service.list">
+      <td >{{gam.GameName}}</td>
+      <td >{{gam.Tag}}</td>
+      <td >{{gam.GameDescription}}</td>
+      <td><button (click)="onDelete(gam.id)" class="btn btn-sm btn-outline-danger">X</button></td>
+    </tr>
+  </table>

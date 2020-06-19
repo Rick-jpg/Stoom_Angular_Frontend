@@ -13,6 +13,9 @@ import { RegistrationComponent} from './user/registration/registration.component
 import { UserService } from './shared/user.service';
 import { LoginComponent } from './user/login/login.component';
 import { HomeComponent } from './home/home.component';
+import { AddgameComponent } from './addgame/addgame.component';
+import { GamelistComponent } from './addgame/gamelist.component';
+
 
 
 
@@ -22,7 +25,9 @@ import { HomeComponent } from './home/home.component';
     UserComponent,
     RegistrationComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    AddgameComponent,
+    GamelistComponent
   ],
   imports: [
     BrowserModule,
